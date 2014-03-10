@@ -92,6 +92,15 @@ The column denoting the risk allele in the output will remain the same even
 after recoding. So in the case of a recode 1 or 3, the risk allele is in fact
 considered protective.
 
+PACKAGE
+-------
+
+This package contains 3 folders.
+
+dist      Binary files distribution
+samples   A colleaction of sample input files
+src       All the source files for Geisa
+
 UNIQUE FILE FORMAT
 ------------------
 
@@ -130,21 +139,6 @@ INTERACTION MARKER FILE
 
 Should only containt one column with marker names.
 
-BUG REPORTS
------------
-
-If you have web access, then please look at
-https://projects.kirc.se/projects/2011-jeira/
-
-This will give you access to the bug tracking system used by the developers of
-JEIRA and will allow you to look into existing bug reports, or submit new 
-reports.
-
-If this fails, or you don't have web access, please send all comments and bug 
-reports by electronic mail to:
-   Daniel Uvehag <daniel.uvehag@ki.se>
-   Henrik Källberg <henrik.kallberg@ki.se>
-
 
 COPYRIGHT
 ---------
@@ -154,9 +148,10 @@ Public License.
 GEISA is an update of JEIRA written by Henric Zazzi.
 
 daniel.uvehag@ki.se
+henric@zazzi.se
 
 
 AVAILABILITY
 ------------
 
-The main web site for JEIRA is https://projects.kirc.se/projects/2011-jeira/
+The main web site for GEISA is https://github.com/menzzana/geisa
