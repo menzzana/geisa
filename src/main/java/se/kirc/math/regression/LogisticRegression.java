@@ -4,6 +4,7 @@ import org.apache.commons.math.FunctionEvaluationException;
 import org.apache.commons.math.linear.Array2DRowRealMatrix;
 import org.apache.commons.math.linear.ArrayRealVector;
 import org.apache.commons.math.linear.DecompositionSolver;
+import org.apache.commons.math.linear.InvalidMatrixException;
 import org.apache.commons.math.linear.LUDecompositionImpl;
 import org.apache.commons.math.linear.RealMatrix;
 import org.apache.commons.math.linear.RealVector;
@@ -32,7 +33,7 @@ public class LogisticRegression {
 
 	public LogisticRegression(LogisticRegressionConfiguration config)
 			throws DimensionMismatchException, FunctionEvaluationException,
-			IllegalArgumentException {
+			IllegalArgumentException, InvalidMatrixException {
 		// Extract configuration parameters.
 		RealMatrix x = config.getX();
 		RealVector y = config.getY();
